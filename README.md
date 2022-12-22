@@ -1,23 +1,8 @@
 # MuxSpaces SDK
 
-## Installation
+## Installation and Getting Started with the SDK
 
-### Adding the SDK using Swift Package Manager
-
-You can add the SDK using Swift Package Manager via Xcode by following the steps described [here](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app).
-
-### Adding the SDK manually
-
-1. Download MuxSpaces.xcframework.zip and WebRTC.xcframework.zip. 
-2. Unzip each zip file and drag it into your Xcode project. Make sure **Copy items if needed** is checked and the frameworks are added to the correct app target.
-3. Under the General Pane of your App target scroll to Frameworks, Libraries, and Embedded Content. Select **Sign & Embed** for both MuxSpaces and WebRTC.
-4. In order to use the MuxSpaces SDK you'll need to disable bitcode in your app target by setting the `ENABLE_BITCODE` flag to **No**. If you've never enabled bitcode and if your project was created in Xcode 14, you can skip this step because bitcode is disabled by default in Xcode 14.
-	
-More details can be found in the Getting Started guide for the SDK.
-
-## Getting Started
-
-A step-by-step Getting Started guide for the SDK can be found [here](https://www.notion.so/mux/External-Real-Time-Video-Getting-Started-Guide-for-iOS-6b06eaf12764462d9782868316665082).
+A step-by-step Getting Started guide for the SDK can be found [here](https://docs.mux.com/guides/video/send-and-receive-real-time-video-from-an-ios-application).
 
 ## Documentation
 
